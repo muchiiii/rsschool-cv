@@ -8,7 +8,6 @@ I am 18 years old, I work as a programming teacher. I think that my actual job w
 * HTML
 * CSS
 * Python
-* C++
 ## Education
 * Tashkent University of Information Technologies named after Muhammad al-Khwarizmi
     + Software engineering
