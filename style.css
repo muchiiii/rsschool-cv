@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap'); 
+
 *{ 
     margin: 0; 
     padding: 0; 
@@ -14,14 +15,21 @@ html {
 a{ 
     text-decoration: none; 
     cursor: pointer; 
-} 
- 
-.list_reset{ 
-    list-style: none; 
-} 
+}  
  
 body{ 
     background-color: #FBF8CC; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
+footer{
+    display: block;
+}
+
+.list_reset{ 
+    list-style: none; 
 } 
  
 .container { 
@@ -58,6 +66,11 @@ body{
  
     color: #03045E; 
 } 
+
+.nav{
+    margin: 20px 100px; 
+    border-bottom: 5px solid #03045E; 
+}
  
 .nav_list { 
     margin: 35px 100px; 
@@ -177,17 +190,6 @@ body{
     padding: 20px 0; 
 } 
  
-._h1{ 
-    font-family: 'Poppins'; 
-    font-style: normal; 
-    font-weight: 800; 
-    font-size: 100px; 
-    line-height: 116px; 
-   
- 
- 
-    color: #F7F197; 
-} 
  
 ._title{ 
     max-width: 350px; 
@@ -226,6 +228,7 @@ body{
  
     color: #03045E; 
 } 
+
 .list{ 
     max-width: 900px; 
     position: relative; 
@@ -336,11 +339,13 @@ body{
     font-style: normal; 
     font-weight: 400; 
     font-size: 24px; 
-    line-height: 44px; 
+    line-height: 44px;
+    padding-left: 20px; 
  
     color: #03045E; 
  
 } 
+
 .work_code{
     max-width: 900px; 
     position: relative; 
@@ -355,4 +360,28 @@ body{
     line-height: 44px; 
  
     color: #03045E; 
+}
+
+.rs_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 100px; 
+    padding: 30px;
+    border-top: 5px solid #03045E; 
+}
+
+.rs_list_item{
+    font-family: 'Poppins'; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 24px; 
+    line-height: 44px; 
+
+ 
+    color: #03045E; 
+}
+
+.footer {
+    padding: 20px 0;
 }
