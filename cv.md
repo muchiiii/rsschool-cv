@@ -35,7 +35,7 @@ module.exports = function towelSort(matrix) {
 ```
 ## Education
 + Tashkent University of Information Technologies named after Muhammad al-Khwarizmi
-  * SOFTWARE ENGINEERING
+  * Software engineering 
 
 ## Languages
 + Russian - native speaker
